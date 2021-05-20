@@ -11,7 +11,7 @@ contract OwnedToken {
         owner = msg.sender;
 
         creator = TokenCreator(msg.sender);
-        name = _name;
+        name = _name; //change
     }
 
     function changeName(bytes32 newName) public {
